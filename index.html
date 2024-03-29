@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SgmTelecoms</title>
+    <link rel="shortcut icon" href="./images/logo_2_smgtelecoms.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <meta name="theme-color" content="#2091F9">
+    <meta name="title" content="SgmTelecoms">
+    <meta name="description"
+        content="Empresa que se dedica a la prestacion de servicios de telecomunicaciones">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="SgmTelecoms">
+    <meta property="og:description"
+        content="Empresa que se dedica a la prestacion de servicios de telecomunicaciones">
+
+</head>
+
+<body id="inicio">
+
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <img class="logoPrincipal" src="./images/logo_2_smgtelecoms.png" alt="">
+                <h2 class="nav__title">SGMTelecoms</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#inicio" class="nav__links" id="inicioLang">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#nosotros" class="nav__links" id="nosotrosLang">Nosotros</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#sectores" class="nav__links" id="sectoreslang">Sectores</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#soluciones" class="nav__links" id="solucionesLang">Soluciones</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links" id="contactenosLang">Contactenos</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#pqr" class="nav__links" id="pqrLang">PQR</a>
+                </li>
+
+                <img src="./images/close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+
+            <!--Inicio Cambio de Idioma-->
+
+            <div class="language-container">
+                <select id="language" onchange="changeLanguage()">
+                  <option onclick="changeLanguage('es')" value="es">Español</option>
+                  <option onclick="changeLanguage('en')" value="en">English</option>
+                  <option onclick="changeLanguage('fr')" value="fr">Français</option>
+                  <option onclick="changeLanguage('de')" value="de">Deutsch</option>
+                  <option onclick="changeLanguage('pt')" value="pt">Português</option>
+                </select>
+              </div>
+
+            
+
+
+        </nav>
+
+        <section id="content" class="hero__container container">
+            <h1 id="title" class="hero__title">Prende el futuro de la conectividad, hoy.</h1>
+            <p id="description" class="hero__paragraph">Como uno de los operadores de internet satelital, sgmtelecoms trabaja en colaboración con sus proveedores para ofrecer soluciones de conectividad critica, que abordan los desafíos de comunicaciones mas complejos del mundo.</p>
+            <a  href="#soluciones" class="cta" id="botonLang">Comienza ahora</a>
+        </section>
+    </header>
+
+    <main>
+        <section class="container about" id="sectores">
+            <h2 id="subSectorsLang" class="subtitle">¿Estás listo para un servicio de internet superrápido?</h2>
+            <p id="paragrafo" class="about__paragraph">Es rápido, fiable y consistente,nunca tendrás que preocuparte por los límites de datos nunca más. SgmTelecoms ofrece la velocidad que necesitas, y las características que amas.</p>
+
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./images/shapes.svg" class="about__icon">
+                    <h3 id="calidad" class="about__title">Orientados a la Calidad</h3>
+                    <p id="retos" class="about__paragrah">Conocemos los retos de las empresas en materia de
+                        telecomunicación, y sabemos lo que esperan de un proveedor comprometido. La satisfacción de nuestros clientes es nuestra meta.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/paint.svg" class="about__icon">
+                    <h3 id="centrados" class="about__title">Centrados en el Cliente</h3>
+                    <p id="entendemos" class="about__paragrah">Entendemos que cada empresa o persona es diferente. Nos
+                        adaptamos a cada cliente conformando un equipo de trabajo eficiente, eficaz y productivo, enfocado en alcanzar los objetivos propuestos.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/code.svg" class="about__icon">
+                    <h3 id="apasionado" class="about__title">Apasionados</h3>
+                    <p id="profesionales" class="about__paragrah">Somos profesionales con experiencia, en la industria de las
+                        telecomunicaciones vía satélite. Nos apasiona lo que hacemos, ayudando a las personas a conectarse con el mundo, es nuestra pasion trabajar por el cliente y para el cliente</p>
+                </article>
+                
+            </div>
+        </section>
+
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledege__texts">
+                    <h2 class="subtitle" id="sectoresDos">SECTORES</h2>
+                    <p class="knowledge__paragraph">
+                        <ul>
+                            <li id="agroindustria">AgroIndustria</li>
+                            <li id="edu">Educacion</li>
+                            <li id="ban">Banca</li>
+                            <li id="com">Comercio</li>
+                            <li id="ene">Energia</li>
+                            <li id="pet">Petroleo y Gas</li>
+                            <li id="pez">Pezca</li>
+                        </ul>
+                        </p>
+                </div>
+
+                <figure class="knowledge__picture">
+                    <img src="./images/nosotros.webp" class="knowledge__img">
+                </figure>
+            </div>
+        </section>
+
+        <section class="price container" id="soluciones">
+            <h2 class="subtitle" id="nuSoluciones">Nuestras Soluciones</h2>
+
+            <div class="price__table">
+                <div class="price__element">
+                    <p class="price__name"></p>
+                    <h3 class="price__price" id="intsate">Internet Satelital</h3>
+
+                    <div class="price__items">
+                        <p class="price__features" id="accIntSat">Accceso Internet Satelital</p>
+                        <p class="price__features" id="conecIntSat">Conectamos tu hogar, tu empresa u organización a internet via satélite, por muy remota que se encuentre su ubicación</p>
+                        <p class="price__features" id="features"> <br> <br>
+                            - Instalación muy rápida. <br> <br>
+                            - Calidad en el sistema de atención de nuestros
+                            servicios. <br> <br>
+                            -Todo tipo de conexiones IP y telefonía incluida.</p>
+                    </div>
+
+                    <a href="#" class="price__cta" id="empiezaAhora">Empieza ahora</a>
+                </div>
+
+
+                <div class="price__element price__element--best">
+                    <p class="price__name"></p>
+                    <h3 class="price__price" id="rsatelital">Rural Satelital</h3>
+
+                    <div class="price__items">
+                        <p class="price__features" id="featureRural">La banda ancha rural disponible con internet satelital ilimitado para usted no importa donde viva, aun cuando el cable DSL no llegan. El internet via satélite es superior de rápido, será capaz de ver los clips de video, descargar cualquier tipo de archivo, aprender mas rápido que nunca, y lo puede usar con el sistema operativo de su preferencia.</p>
+                        <p class="price__features" id="dirigidorural">Dirigido a lugares de dificil acceso</p>
+                        <p class="price__features"></p> 
+                    </div>
+
+                    <a href="#" class="price__cta" id="empRura">Empieza ahora</a>
+                </div>
+
+
+                <div class="price__element">
+                    <p class="price__name"></p>
+                    <h3 class="price__price" id="intEmpre">Internet Satelital Empresarial</h3>
+
+                    <div class="price__items">
+                        <p class="price__features" id="textEmpres">Queriendo mantener la calidad de nuestras soluciones, el tipo de solución empresarial, esta diseñada para proyectos de conectividad grandes, los cuales demandan mayor ancho de conexión y lo mejor que su precio sea asequible.</p>
+                        <p class="price__features" id="userTextEmpr">Los usuarios tienen la seguridad de que su red privda esta administrada y monitoreada 7/24/365.</p>
+                        <p class="price__features"></p>
+                    </div>
+
+                    <a href="#" class="price__cta" id="btnEmpres">Empieza ahora</a>
+                </div>
+
+                <div class="price__element">
+                    <p class="price__name"></p>
+                    <h3 class="price__price" id="interEvent">Internet Satelital  Eventos</h3>
+
+                    <div class="price__items">
+                        <p class="price__features" id="intEventText">En este segmento de nuestros servicios, ofrecemos nuestras opciones (4.5/LTE o Satelital), realizamos la instalación y la puesta en marcha con un cable ethernet de 90 metros, si se hace necesario la utilización, prestamos un punto de acceso inalámbrico hasta 60mts, proporcionando un ancho de banda confiable.</p>
+                        <p class="price__features" id="text2Events">Los usuarios tienen la seguridad de que su red privda esta administrada y monitoreada 7/24/365.</p>
+                        <p class="price__features"></p>
+                    </div>
+
+                    <a href="#" class="price__cta" id="btnIntEvent">Empieza ahora</a>
+                </div>
+                <div class="price__element--best">
+                    <p class="price__name"></p>
+                    <h3 class="price__price" id="pyme">Internet Satelital Pyme</h3>
+
+                    <div class="price__items">
+                        <p class="price__features" id="textPyme">Este tipo de soluciones esta dirigido a proyectos que necesiten una conectividad Micro y Pequeñas organizaciones que demandan mayores anchos de banda. Mantenemos la excelencia de nuestras soluciones de conectividad.
+                            Estas soluciones van dirigidas al sector Energía, Petrolero, Pesquero, Minero y Financiero.</p>
+                        <p class="price__features" id="text2Pyme">Los usuarios tienen la seguridad de que su red privda esta administrada y monitoreada 7/24/365.</p>
+                        <p class="price__features"></p>
+                    </div>
+
+                    <a href="#" class="price__cta" id="btnPyme">Empieza ahora</a>
+                </div>
+                <div class="price__element">
+                    <p class="price__name"></p>
+                    <h3 class="price__price" id="vpnInter">Vpn via Satélite</h3>
+
+                    <div class="price__items">
+                        <p class="price__features" id="textVpn">Conecta tu empresa, evento o delegación de forma remota pero de una manera segura mediante satélite a los recursos de la empresa (MPLS privada, ERP, CRM), por muy alejada que sea la ubicación, gracias a nuestras soluciones profesionales de Vpn Satelital nuca te vas a ver desconectado de lo que realmente afecta tu negocio,Compatibilidad del 100%, con aplicaciones y sistemas de terceros.</p>
+                        <p class="price__features" id="text2Vpn">Los usuarios tienen la seguridad de que su red privda esta administrada y monitoreada 7/24/365.</p>
+                        <p class="price__features"></p>
+                    </div>
+
+                    <a href="#" class="price__cta" id="btnVpn">Empieza ahora</a>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="testimony" id="nosotros">
+            <div class="testimony__container container">
+                <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
+
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle" id="filo">Nuestra Filosofia <br><span class="testimony__course">SgmTelecoms</span></h2>
+                        <p class="testimony__review" id="textFilosofia">La competencia empresarial nos impulsa a crear nuevas estrategias, que permitan sobresalir y alcanzar nuestros objetivos comerciales, tomando las mejores decisiones siempre enfocadas en nuestros clientes.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/img_filosofia.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle" id="tMision">MISÍON <br><span class="testimony__course" >SgmTelecoms</span></h2>
+                        <p class="testimony__review" id="texMision">Ser una empresa que presta servicios de internet satelital de forma agil, dinámica e integral aportando su cumplimiento, responsabilidad, integridad, rectitud, su alto potencial humano y larga experiencia en el sector, contribuyendo asi al crecimiento, prestigio y competitividad de organizaciones que tengan como razón social el brindar soluciones en telecomunicaciones, mediante la prestación de un servicio que cumpla con los mas altos estándares de calidad.!</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/mision_sgmtelecoms.webp" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle" id="tiVision">VISIÓN <br><span class="testimony__course">SgmTelecoms</span></h2>
+                        <p class="testimony__review" id="textVision">En el 2024 ser la mejor empresa que proporcione servicios de telecomunicaciones a través de satélites, cumpliendo la normativa vigente e impulsando el crecimiento económico productivo, logrando que todas aquellas comunidades accedan a internet satelital de una forma asequible y con altos entandares de calidad.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/vision_sgmtelecoms.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="4">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle" id="trabajo" >BOLSA DE TRABAJO <br><span class="testimony__course">Trabaja con Nosotros</span></h2>
+                        <p class="testimony__review" id="textTrabajo">En Sgmtelecoms, entendemos que la innovación tecnológica y competitividad exigen nuevos dinamismos, por tanto, estamos permanentemente dispuestos a incorporar talento nuevo al equipo.
+                            Si te interesa lo que hacemos, considera que tienes cosas que ofrecer al crecimiento de nuestra compañía y quieres explotar todos tus talentos, no dudes enviarnos ahora mismo tu currículum a jobs@sgmtelecoms.com</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/trabaja_conNosotros.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+
+                <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+
+        <section class="questions container" id="pqr">
+            <h2 class="subtitle" id="preguntas">Preguntas frecuentes</h2>
+            <p class="questions__paragraph" id="dudas">Aclaramos tus dudas.</p>
+
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title" id="primeraPregunta">¿Cuáles son las soluciones disponibles en telecomunicaciones para tu empresa?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show" id="respuestaUno">Cuando se trata de telecomunicaciones para tu empresa, existen muchísimas opciones disponibles, y cada una cumple con un propósito diferente, además de tener requerimientos variados para su funcionamiento óptimo. </p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title" id="segundaPregunta">¿Cuántos y cuáles son los productos o servicios que requieres para tus necesidades específicas?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Ahora que conoces todas las opciones disponibles en telecomunicaciones para tu empresa, lo siguiente que necesitas preguntarte es el tamaño del proyecto que planeas implementar. 
+
+                            Dependiendo del tamaño de tu proyecto y las necesidades específicas de tu negocio, es probable que necesites un mayor o menor apoyo de telecomunicaciones, lo que se traduce en más o menos equipos para asegurarse de que la estrategia funcione adecuadamente.
+                            
+                            Considera el tamaño de tu inversión y pide una asesoría a tu proveedor de comunicaciones para decidir cuántos productos o servicios son realmente necesarios para garantizar los mejores resultados.</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title" id="terceraPregunta" >¿Necesitas invertir en productos o servicios complementarios para que funcionen?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Una vez que decides qué tipo de estructura de telecomunicaciones para tu empresa es la más adecuada, es hora de tomar en cuenta otro aspecto igual de importante. 
+
+                            En muchas ocasiones, los equipos necesarios para la infraestructura de telecomunicaciones requieren apoyo de otros.
+                            
+                            Por ejemplo, un router puede requerir una instalación o cableado especialmente diseñado para soportar la velocidad de banda ancha, o, si optas por implementar un centro de datos, probablemente tengas que considerar equipos de aire acondicionado especializados en regular las temperaturas de equipos de cómputo. 
+                            
+                            Para hacer una inversión inteligente, toma en cuenta cuáles son los costos relacionados con la solución que elijas, y cuál será la efectividad de cada una de ellas.</p>
+                    </div>
+                </article>
+            </section>
+
+            <section class="questions__offer" id="contactenos">
+                <div class="contact_form">
+                    <div class="formulario">			
+                  <h1 id="formulario">Formulario de contacto</h1>
+                            <h3 id="detalleForm">Escríbenos y en breve los pondremos en contacto contigo</h3>
+                                <form action="submeter-formulario.php" method="post">				
+                                            <p>
+                                                <label for="nombre" class="colocar_nombre" id="nombreForm">Nombre
+                                                    <span class="obligatorio">*</span>
+                                                </label>
+                                                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                                            </p>
+                                            <p>
+                                                <label for="email" class="colocar_email" id="formEmail">Email
+                                                    <span class="obligatorio">*</span>
+                                                </label>
+                                                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                                            </p>
+                                            <p>
+                                                <label for="telefone" class="colocar_telefono" id="telForm" >Teléfono
+                                                </label>
+                                                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                                            </p>		
+                                            <p>
+                                                <label for="website" class="colocar_website" id="webSite">Sitio web
+                                                </label>
+                                                    <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                                            </p>		
+                                            <p>
+                                                <label for="asunto" class="colocar_asunto" id="formAsunto">Asunto
+                                                    <span class="obligatorio">*</span>
+                                                </label>
+                                                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                                            </p>		
+                                            <p>
+                                                <label for="mensaje" class="colocar_mensaje" id="formMensaje">Mensaje
+                                                    <span class="obligatorio">*</span>
+                                                </label>                     
+                                                     <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                               </p>	  								
+                                            <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+                                            <p class="aviso">
+                                                <span class="obligatorio" id="obligatorio"> * </span>los campos son obligatorios.
+                                            </p>					
+                                    
+                                </form>
+                    </div>	
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">SgmTelecoms</h2>
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="#inicio" class="nav__links" id="fooInicio">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#nosotros" class="nav__links" id="fooNosotros">Nosotros</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#sectores" class="nav__links" id="fooSectores">Sectores</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#soluciones" class="nav__links" id="fooSoluciones">Soluciones</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#contactenos" class="nav__links" id="fooContactenos">Contactenos</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#pqr" class="nav__links">PQR</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
+                <h2 class="footer__newsletter" id="newsletter">Suscribete a la newsletter</h2>
+                <div class="footer__inputs">
+                    <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+                    <input type="submit" value="Registrate" class="footer__submit">
+                </div>
+            </form>
+        </section>
+
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="#" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/youtube.svg" class="footer__img"></a>
+            </div>
+
+            <h3 class="footer__copyright">Derechos reservados &copy; SgmTelecoms - 2024</h3>
+        </section>
+    </footer>
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>
